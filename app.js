@@ -42,14 +42,14 @@ mongoose
       process.env.MONGO_PASSWORD
     }@utp-holder-twb0u.azure.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
   )
- */
-
- // .connect('mongodb+srv://root:TOW5ajQZZ6ry3kbx@utp-holder-twb0u.azure.mongodb.net/test?retryWrites=true&w=majority')
-    .connect('mongodb+srv://root:vQypmyseabzRknlu@utp-holder-twb0u.azure.mongodb.net/test?retryWrites=true&w=majority',  { useNewUrlParser: true })
-    .then(() => {
+  
+      .then(() => {
     app.listen(8000);
     console.log('Working');
+
+
   })
+   */
   .catch(err => {
     console.log(err);
   });
