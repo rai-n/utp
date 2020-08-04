@@ -59,7 +59,7 @@ I&#39;m using Maps API to render a map based on tester address. This address is 
 See **package.json** in the project for a more detailed view.
 
 **NOTE:** Use **npm install** to install the listed dependencies if you are using the file without node\_modules pre-installed. **This will be located in project file/node\_modules and project file/frontend/node\_modules.**
-``` 
+
 &quot;dependencies&quot;: {
 &quot;chart.js&quot;: &quot;^1.1.1&quot;,
 &quot;google-maps-react&quot;: &quot;^2.0.6&quot;,
@@ -70,7 +70,7 @@ See **package.json** in the project for a more detailed view.
 &quot;react-scripts&quot;: &quot;^3.4.1&quot;,
 &quot;react-table&quot;: &quot;6.10.0&quot;
 },
-```
+
 ### Full list of backend dependencies at runtime:
 
 See package.json in event for a more detailed view.
