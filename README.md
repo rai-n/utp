@@ -6,7 +6,7 @@ Table of Contents
 
 **[2.](#_Toc44797347)** **Directory tree and Run-time components**
 
-[2.1](#_Toc44797348) Frameworks &amp; API 2]
+[2.1](#_Toc44797348) Frameworks &amp; API 2
 
 [2.1.1](#_Toc44797349) Frontend dependencies:
 
