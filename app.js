@@ -35,21 +35,7 @@ app.use(
 );
 
 mongoose
- /*
- For web server later
- .connect(
-    `mongodb+srv://${process.env.MONGO_USER}:${
-      process.env.MONGO_PASSWORD
-    }@utp-holder-twb0u.azure.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
-  )
-  
-      .then(() => {
-    app.listen(8000);
-    console.log('Working');
-
-
-  })
-   */
+  // removed code due to security 
   .catch(err => {
     console.log(err);
   });
